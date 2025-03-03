@@ -1,0 +1,139 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* ----- RATING START STYLE ----- */
+
+.rating-start {
+    max-width: 400px;
+    background-color: hsl(212, 19%, 15%);
+    padding: 28px;
+    border-radius: 23px;
+}
+
+.rating-start .star-img {
+    background-color: hsl(209, 20%, 21%);
+    padding: 15px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+.rating-start .main-info .title {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.rating-start .main-info .text {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.rating-start #rating {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.rating-start #rating .number {
+    border-radius: 100%;
+    border: none;
+    background-color: hsl(209, 20%, 21%);
+    color: hsl(218, 23%, 75%);
+    padding: 18px;
+    width: 100%;
+    margin-right: 20px;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+.rating-start #rating .number:last-child {
+    margin-right: 0;
+}
+
+.rating-start #submit-form .submit {
+    width: 100%;
+    padding: 12px;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Overpass', sans-serif;
+}
+
+#submit-form #submit:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+.rating-start #rating .number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    transition: 0.3s ease-in-out;
+}
+
+/* ----- THANK YOU STYLES ----- */
+
+.thankyou-state {
+    max-width: 400px;
+    text-align: center;
+    background-color: hsl(212, 19%, 15%);
+    border-radius: 23px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thankyou-state img {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 162px;
+}
+
+.thankyou-state .selected {
+    background-color: hsl(209, 20%, 21%);
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px 15px 5px 15px;
+    border-radius: 18px;
+    margin-bottom: 35px;
+}
+
+.thankyou-state .ty-info .ty-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.thankyou-state .ty-info .ty-text {
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+/* ----- EXTRA STYLES ----- */
+
+.rating-start #rating .number.clicked {
+    background-color: white;
+    color: hsl(216, 12%, 8%);
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

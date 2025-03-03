@@ -1,0 +1,44 @@
+@media (max-width: 375px) {
+    .rating-start {
+        max-width: 350px;
+        padding: 25px;
+    }
+
+    .rating-start #rating .number {
+        display: flex;
+        align-items: center;
+        height: 43px;
+        width: 43px;
+        width: fit-content
+    }
+
+    .thankyou-state {
+        max-width: 350px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .rating-start {
+        max-width: 300px;
+        padding: 22px;
+    }
+
+    .rating-start #rating .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .rating-start #submit-form .submit {
+        font-size: 12px;
+    }
+
+    .thankyou-state {
+        max-width: 300px;
+        padding: 22px;
+    }
+}

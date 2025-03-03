@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <section class="rating-start" id="rating-start">
+    <img src="./images/icon-star.svg" alt="Star Icon" class="star-img">
+
+    <section class="main-info">
+      <h1 class="title">How did we do?</h1>
+      <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    </section>
+
+    <div id="rating">
+      <button class="number 1 ">1</button>
+      <button class="number 2">2</button>
+      <button class="number 3">3</button>
+      <button class="number 4">4</button>
+      <button class="number 5">5</button>
+    </div>
+
+    <form id="submit-form">
+      <button class="submit" id="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="thankyou-state hide" id="thankyou-state">
+    <img src="./images/illustration-thank-you.svg" alt="Cellphone Image">
+
+    <div class="selected">You selected <span id="rate-complete">0</span> out of 5</div>
+
+    <section class="ty-info">
+      <h1 class="ty-title">Thank you!</h1>
+      <p class="ty-text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </section>
+  </section>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./js/index.js"></script>
+</body>
+</html>
